@@ -8,6 +8,65 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form method="post">
+		<!--name-->
+		<label for="name">Name</label>
+		<input type="text" id= "name" name="name" placeholder="Name"required>
+		<br><br>
+		<!--email-->
+		<label for="email">Email</label>
+		<input type="Email"id="email"name="email"placeholder="Email"required>
+		<br><br>
+		<!--gender-->
+		<lable>Gender</lable>
+		<input type="Radio"id="gender_m"name="gender"value="male"required>
+		<lable for="gender_m">Male</lable>
+		<input type="Radio"id="gender_f"name="gender"value="female"required>
+		<lable for="gender_f">Female</lable>
+		<br><br>
+		<!--car-->
+		<lable for="cars">Car Brands</lable>
+		<select id="cars"name="cars"required>
+			<option value="">--Please choose an option</option>
+			<option value="honda">Honda</option>
+			<option value="maruti">Maruti</option>
+			<option value="toyota">Toyota</option>
+		</select>
+		<br><br>
+
+		<!--age-->
+		<lable for="age">Age</lable>
+		<input type="Number" id="age"name="age"placeholder="Age"required>
+		<br><br>
+		<!--dob-->
+		<lable for="dob">DOB</lable>
+		<input type="Date"id="dob"name="dob"required>
+		<br><br>
+
+		<!--phone-->
+
+		<lable for="tel">Phone Number</lable>
+		<input type="tel"id="tel"name="tel"placeholder="xxx-xxx-xxx">
+		<br><br>
+
+		<!--password-->
+		<lable for="password">Password</lable>
+		<input type="password"id="password"name="password"placeholder="Password"required>
+		<br><br>
+
+		<!--agree-->
+		<input type="checkbox"id="tos"name="tos"required>
+		<lable for="tos">I agree to the TOS</lable>
+		<br><br>
+
+		<button type="submit">Submit</button>
+	</form>
+		
+		
+
+		
+		
+		
     <script type="text/javascript" src="./script.js">
 </script>
 
